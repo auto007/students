@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^students.html$',students.get_students),
     url(r'^add_students.html$',students.add_students),
     url(r'^del_students.html$',students.del_students),
+    url(r'^edit_students.html$',students.edit_students),
 ]
